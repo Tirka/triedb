@@ -16,7 +16,7 @@ rocksdb = ["rocksdb_lib"]
 [dependencies]
 sha3 = "0.9.1"
 rlp = "0.5.0"
-primitive-types = { version = "0.8.0", features = ["rlp"] }
+primitive-types = { version = "0.10.0", features = ["rlp"] }
 thiserror = "1.0.23"
 rocksdb_lib = { package = "rocksdb", git = "https://github.com/rust-rocksdb/rust-rocksdb", rev = "39b877b", default-features = false, optional = true }
 
